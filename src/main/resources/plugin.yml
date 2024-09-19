@@ -1,0 +1,28 @@
+name: WeatherControl
+version: 1.0
+main: org.restudios.weathercontrol.WeatherControl
+api-version: 1.16
+description: "Плагин для управления погодой и временем с голосованием и автоматической сменой погоды."
+author: ReStudios
+commands:
+  weathercontrolreload:
+    description: "Перезагрузка конфигурации плагина WeatherControl"
+    usage: "/weathercontrolreload"
+  weather:
+    description: "Изменение погоды"
+    usage: "/weather <sunny|rain|thunder>"
+  time:
+    description: "Изменение времени суток"
+    usage: "/time <day|night>"
+  voteweather:
+    description: "Начать голосование за изменение погоды"
+    usage: "/voteweather"
+  votetime:
+    description: "Начать голосование за изменение времени суток"
+    usage: "/votetime"
+  castvote:
+    description: "Проголосовать за изменение погоды или времени"
+    usage: "/castvote <weather/time> <yes/no>"
+  weathercontrolhelp:
+    description: "Показать меню помощи"
+    usage: "/weathercontrol"
