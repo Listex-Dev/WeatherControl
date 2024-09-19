@@ -31,10 +31,6 @@ java {
     }
 }
 
-jar {
-    destinationDirectory = file("/home/listex/Документы/Server/plugins")  // Изменяем путь для JAR файла
-}
-
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
 
